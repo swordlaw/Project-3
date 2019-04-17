@@ -1,0 +1,110 @@
+@media only screen and (max-width: 400px) {
+    @import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+  header{
+      text-align: center;
+      color: white;
+      background-image: linear-gradient(to right,lightblue, midnightblue, lightblue);
+      font-family: 'Thasadith';
+  }
+
+  .footer{
+    text-align: center;
+    background-image: linear-gradient(to right,lightblue, midnightblue, lightblue);
+    color: white;
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+    text-decoration-line: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: white
+  }
+  a:link, :visited{
+    color: white;
+  }
+  a:hover{
+    color: lightblue;
+  }
+  .nav{
+    text-align: center;
+    color: white;
+
+  }
+  .nav ul li {
+    display:inline;
+  }
+  .nav ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  body{
+    background-color: lightblue; 
+    text-align: center;
+    margin: 1cm;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+  }
+  .resume h2{
+    text-decoration: underline;
+  }
+  .resume h3{
+    font-style: italic;
+  }
+  hr { 
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), lightblue, rgba(0, 0, 0, 0)); 
+  }
+  img {
+    border-radius: 50%;
+    align-content: center;
+    max-width: 80%;
+
+  }
+  .himg{
+    width: 50%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .leftcolumn{
+    width: 50%;
+    min-height: 100%;
+      float: left; 
+      text-align: right;
+    text-align: center;
+  }
+  .leftcolumn hr{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), midnightblue, rgba(0, 0, 0, 0)); 
+  }
+  .rightcolumn{
+    width: 50%;
+    min-height: 100%;
+      float: right; 
+      text-align: center;
+  }
+  .rightcolumn hr{
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), midnightblue, rgba(0, 0, 0, 0)); 
+  }
+  .rightcolumn ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+  .video{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+  }
+}
